@@ -31,7 +31,7 @@ impl QueryRoot {
             .fetch_one(&ctx.pool)
             .await?;
         Ok(ExampleStruct {
-            id: row.get(0),      
+            id: row.get(0),
             name: row.get(1),
             updated_at: row.get(2),
         })
