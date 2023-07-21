@@ -12,6 +12,6 @@ chrono = "0.4.26"
 dotenv = "0.15.0"
 env_logger = "0.10.0"
 juniper = "0.15.11"
-serde = "1.0.173"
+serde = "1.0.174"
 serde_json = "1.0.103"
 sqlx = {version = "0.7.1", features=["postgres", "runtime-async-std-rustls", "chrono"]}
