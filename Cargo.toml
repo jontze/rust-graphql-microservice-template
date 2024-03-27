@@ -8,7 +8,7 @@ edition = "2018"
 [dependencies]
 actix-cors = "0.5.4"
 actix-web = "3.3.3"
-chrono = "0.4.36"
+chrono = "0.4.37"
 dotenv = "0.15.0"
 env_logger = "0.11.3"
 juniper = "0.15.12"
